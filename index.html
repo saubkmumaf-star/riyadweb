@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIYAD | Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="mesh-bg"></div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <i data-lucide="triangle" class="logo-icon"></i>
+                <span>RIYAD</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#work">Work</a>
+                <div class="status-pill">
+                    <span class="pulse-dot"></span>
+                    <span class="clock">Live</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content fade-up">
+                <div class="badge">
+                    <span class="sparkle">✨</span> Open to new opportunities
+                </div>
+                <h1 class="hero-title">
+                    Crafting <span class="gradient-text typing-text"></span>
+                </h1>
+                <p class="hero-subtitle">
+                    I'm Riyad, a creative developer specializing in building exceptional digital experiences, real-time applications, and professional user interfaces.
+                </p>
+                <div class="hero-cta">
+                    <a href="#about" class="btn btn-primary">Start a Project <i data-lucide="arrow-right"></i></a>
+                    <a href="#work" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="bento-section">
+            <div class="bento-grid">
+                <div class="bento-card span-2 fade-up" style="transition-delay: 0.1s;">
+                    <div class="card-icon"><i data-lucide="code-2"></i></div>
+                    <h3>Full Stack Engineering</h3>
+                    <p>Building scalable, robust architectures using modern technologies. From database design to seamless frontend execution, ensuring high performance everywhere.</p>
+                </div>
+                <div class="bento-card fade-up" style="transition-delay: 0.2s;">
+                    <div class="card-icon"><i data-lucide="zap"></i></div>
+                    <h3>Real-time Systems</h3>
+                    <p>WebSockets, WebRTC, and live data streaming architectures built for speed.</p>
+                </div>
+                <div class="bento-card fade-up" style="transition-delay: 0.3s;">
+                    <div class="card-icon"><i data-lucide="palette"></i></div>
+                    <h3>UI/UX Design</h3>
+                    <p>Creating pixel-perfect, accessible, and highly animated interfaces.</p>
+                </div>
+                <div class="bento-card span-2 fade-up" style="transition-delay: 0.4s;">
+                    <div class="card-content-flex">
+                        <div class="text-content">
+                            <h3>About Riyad</h3>
+                            <p>I blend design and engineering to create products that not only look beautiful but perform flawlessly. My approach is rooted in minimalism, speed, and real-time interaction.</p>
+                        </div>
+                        <div class="stats-mini">
+                            <div class="stat">
+                                <span class="stat-num"><span class="counter" data-target="150">0</span>+</span>
+                                <span class="stat-label">Projects</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-num"><span class="counter" data-target="99">0</span>%</span>
+                                <span class="stat-label">Success Rate</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
